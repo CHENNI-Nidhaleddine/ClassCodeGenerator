@@ -25,7 +25,7 @@ CodeFiles::CodeFiles(QString codeH,QString codeC,QString className):QDialog()
    buttonsBox->addWidget(downloadButton);
    mainBox->addLayout(buttonsBox);
    tabs->addTab(header,m_className->toUtf8()+".h");
-   tabs->addTab(cpp,m_className->toUtf8()+".c");
+   tabs->addTab(cpp,m_className->toUtf8()+".cpp");
 
 
 
